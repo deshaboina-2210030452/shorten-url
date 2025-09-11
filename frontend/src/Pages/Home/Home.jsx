@@ -58,7 +58,7 @@ const Home = () => {
 
           <Text
             size="xl"
-fw={700}
+            fw={700}
             style={{
               color: "#f1f1f1",
               marginTop: "0.8rem",

@@ -6,7 +6,7 @@ const PrivateRoute = () => {
 
     const dispatch = useDispatch();
     const token = useSelector(getToken);
-
+    
     if(!token) {
         dispatch(removeUser())
         return <Navigate to={'/login'}/>
